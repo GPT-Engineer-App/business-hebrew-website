@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, VStack, Text, Box, Image, Button, HStack, Link, IconButton } from "@chakra-ui/react";
+import homepageImage from "../assets/homepageImage.jpg";
 import logo from "../assets/logo.png";
 import { FaFacebook, FaInstagram, FaTiktok, FaYoutube, FaWhatsapp } from "react-icons/fa";
 
@@ -9,6 +10,9 @@ const Index = () => {
       <VStack spacing={8}>
         <Box w="100%" bg="blue.200" p={4} borderRadius="md" textAlign="center">
           <Image src={logo} alt="א.ל פרויקטים לוגו" mx="auto" />
+        </Box>
+        <Box w="100%" bg="blue.200" p={4} borderRadius="md" textAlign="center">
+          <Image src={homepageImage} alt="Homepage Image" mx="auto" />
         </Box>
 
         <HStack spacing={4}>
